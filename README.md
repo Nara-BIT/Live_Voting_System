@@ -47,7 +47,7 @@ graph LR
 
 ## 🚀 How to Run the Pipeline
 
-**1. Spin up the Infrastructure**
+**1. Define the Infrastructure**
 Start Postgres, Kafka, and the Spark Cluster:
 ```bash
 docker compose up -d
@@ -79,7 +79,6 @@ streamlit run app.py
 
 ## 📸 Dashboard Preview
 
-*(Drop a screenshot of your running Streamlit dashboard into your project folder, name it `dashboard.png`, and it will appear here!)*
 
 ![Live Dashboard](dashboard.png)
 
@@ -87,3 +86,4 @@ streamlit run app.py
 * Navigated Docker internal/external networking to allow host machines and containers to communicate with Kafka.
 * Upgraded Kafka to KRaft mode (bypassing Zookeeper) for a more modern, lightweight footprint.
 * Handled dependency management for Apache Spark to seamlessly connect Kafka streams to JDBC (Postgres) outputs.
+
