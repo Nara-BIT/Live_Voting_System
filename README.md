@@ -2,7 +2,7 @@
 
 A complete end-to-end data engineering pipeline that simulates live election voting, processes the votes in real-time, and displays the results on a live updating dashboard.
 
-## 🏗️ Architecture & Tech Stack
+## 🏗️ Architecture & Tech Stack:
 
 This project uses a modern streaming architecture built entirely in Docker:
 
